@@ -35,7 +35,7 @@ const Intro = () => {
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
-          <button className="button i-button">Contact us</button>
+          <button className="button i-button">Contact</button>
         </Link>
         {/* social icons */}
         <div className="i-icons">
