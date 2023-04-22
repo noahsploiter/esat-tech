@@ -25,36 +25,6 @@ const Experience = () => {
           work you have done and how they can contact you.
         </span>
       </div>
-      <div className="achievement">
-        <div
-          className="circle"
-          style={{ color: darkMode ? "var(--orange)" : "" }}
-        >
-          <img src={thumbup} />
-        </div>
-        <span style={{ color: darkMode ? "white" : "" }}>
-          lead generation website{" "}
-        </span>
-        <span className="span">
-          This site is designed primarily to generate leads through an online
-          presence. SEO and targeted marketing techniques play a huge role in
-          bringing in new customers. Sales take place, however, offline.
-        </span>
-      </div>
-      <div className="achievement">
-        <div
-          className="circle"
-          style={{ color: darkMode ? "var(--orange)" : "" }}
-        >
-          <img src={thumbup} />
-        </div>
-        <span style={{ color: darkMode ? "white" : "" }}> utility website</span>
-        <span className="span">
-          Utility websites function more like a tool than a standard website.
-          These sites don't necessarily generate sales and leads. This includes
-          blogging and software like services.
-        </span>
-      </div>
     </div>
   );
 };
