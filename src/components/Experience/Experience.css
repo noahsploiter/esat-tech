@@ -51,8 +51,6 @@
 
 @media screen and (max-width: 480px) {
     .experience{
-        display: flex;
-        flex-direction: column;
         transform: scale(0.7);
     }
 }
