@@ -30,8 +30,12 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy!</span>
           <span>We are እሳት Tech</span>
           <span>
-            high level of experience in web designing and development,
-            producting the Quality work
+            እሳት Tech is a technology company that specializes in building
+            various projects, including web development, app development, and
+            software development. Additionally, the company has its own
+            startups, showcasing its innovative and entrepreneurial spirit. With
+            a focus on cutting-edge technology and exceptional customer service,
+            እሳት Tech is a leader in the industry.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>

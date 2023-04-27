@@ -16,13 +16,19 @@ const Experience = () => {
         >
           <img src={thumbup} />
         </div>
-        <span style={{ color: darkMode ? "white" : "" }}>
-          portfolio website{" "}
+        <span className="title" style={{ color: darkMode ? "white" : "" }}>
+          key context{" "}
         </span>
         <span className="span">
-          A portfolio website provides an online presence and an overview of
-          your company. Potential customers can go to this site to find out what
-          work you have done and how they can contact you.
+          Certainly! In terms of key context, it's worth noting that እሳት Tech is
+          based in Ethiopia, a country with a rapidly growing tech sector. The
+          company is dedicated to promoting technological innovation within
+          Ethiopia and beyond, with a focus on creating solutions that address
+          local and global challenges. Some of the key services offered by እሳት
+          Tech include website design and development, mobile app development,
+          software development, and digital marketing. Additionally, the company
+          has a strong commitment to social responsibility, supporting various
+          community initiatives and promoting sustainable business practices.
         </span>
       </div>
     </div>

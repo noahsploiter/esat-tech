@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Portfolio.css";
-import { Swiper, SwiperSlide } from "swiper/react"
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Sidebar from "../../img/sidebar.png";
 import Ecommerce from "../../img/ecommerce.png";
@@ -13,8 +13,8 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
-      <span>Portfolio</span>
+      <span style={{ color: darkMode ? "white" : "" }}>Recent Projects</span>
+      <span>Start-Up</span>
 
       {/* slider */}
       <Swiper
@@ -24,9 +24,21 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          <a href="https://kiraybet.esat-tech.com/">
+            <img src={Sidebar} alt="" />
+          </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <div className="kiray">
+          Kiray bet is a user-friendly website that helps individuals find their
+          ideal homes for rent, while also allowing property owners to list
+          their homes for rent.
+        </div>
+        <div className="btnmore">
+          <a href="https://kiraybet.esat-tech.com/HowTo">
+            <button className="btn">More Info</button>
+          </a>
+        </div>
+        {/* <SwiperSlide>
           <img src={Ecommerce} alt="" />
         </SwiperSlide>
         <SwiperSlide>
@@ -34,7 +46,7 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={HOC} alt="" />
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </div>
   );

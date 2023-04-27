@@ -5,6 +5,15 @@
   position: relative;
   margin-top: -7rem;
 }
+
+a{
+  text-decoration: none;
+  
+}
+
+.url{
+  color: white;
+}
 .f-content {
   position: absolute;
   display: flex;
