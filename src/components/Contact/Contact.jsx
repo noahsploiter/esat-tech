@@ -41,7 +41,7 @@ const Contact = () => {
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}
           ></div>
-          <div className="cnt">Phone Number: 0967813965 / 0965242213</div>
+          <div className="cnt">Phone Number: 0967813965</div>
         </div>
       </div>
       {/* right side form */}
